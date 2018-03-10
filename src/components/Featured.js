@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 const Featured = ({match}) => {
-{/* let name = `${match.params.fname} ${match.params.lname}`; */}
+
 let name = `${match.params.name}`;
 let topic = match.params.topic;
   return (

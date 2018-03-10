@@ -4,11 +4,8 @@ import {
 } from 'react-router-dom';
 import { HTMLCourses,CSSCourses, JSCourses } from '../data/courses';
 
-
 import CourseContainer from './courses/CourseContainer';
-import Course from './courses/Course';
 
-{/* import Course from './courses/course';*/}
 
 const Courses = ({match}) => (
   <div className="main-content courses">
